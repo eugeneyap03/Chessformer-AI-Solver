@@ -30,10 +30,13 @@ Time (seconds): 0.001895
 ```
 
 To visualise the solution using the sokoban file reader to support the following specification representing Chessformer puzzles:
-<img width="1021" alt="Screenshot 2025-03-01 at 10 31 20 pm" src="https://github.com/user-attachments/assets/1a99cdc8-9a50-44ce-ad92-ed080c649d2c" />
 
-Use ```./chessformer -s test_maps/capability6 play_solution```
-<img width="89" alt="Screenshot 2025-03-01 at 10 34 01 pm" src="https://github.com/user-attachments/assets/1892e34f-d4b0-458a-99a1-de17368fd915" />
+<img width="424" alt="Screenshot 2025-03-01 at 10 40 50 pm" src="https://github.com/user-attachments/assets/9e0aa9e8-419d-4e21-ba72-cd218dd3a518" />
+
+
+Apply the command ```./chessformer -s test_maps/capability6 play_solution``` :
+
+<img width="79" alt="chessformerimage1" src="https://github.com/user-attachments/assets/8411cecf-b2bc-44c7-b852-969c308248f4" />
 
 
 Further game-specific optimizations will be explored and implemented to speed up this algorithm in the near future.
