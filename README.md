@@ -6,7 +6,7 @@ The solver finds the path traversing the Chessformer Graph from the initial stat
 
 When the AI solver is called, it should explore all possible paths (sequence of move actions) following the Dijkstra strategy, until a path solving the game is found. The algorithm should return the best solution found. This path will then be executed by the game engine if the option play_solution was used as an argument.
 
-Your solver will print into an ```solution.txt``` file the following information: 
+Your solver will print into a ```solution.txt``` file the following information: 
 
 1. Solution
 2. Number of expanded nodes
@@ -16,7 +16,7 @@ Your solver will print into an ```solution.txt``` file the following information
 6. Number of nodes expanded per second
 7. Total search time, in seconds
 
-For example, the output of the solver ``` ./chessformer -s test_maps/capability6``` is:
+For example, the output of the solver ```./chessformer -s test_maps/capability6``` is:
 
 ```
 SOLUTION:
