@@ -6,4 +6,34 @@ The solver finds the path traversing the Chessformer Graph from the initial stat
 
 When the AI solver is called, it should explore all possible paths (sequence of move actions) following the Dijkstra strategy, until a path solving the game is found. The algorithm should return the best solution found. This path will then be executed by the game engine if the option play_solution was used as an argument.
 
-Further game-specific optimizations will be explored and implemented to speed up this algorithm.
+Your solver will print into an ```solution.txt``` file the following information: 
+
+Solution
+Number of expanded nodes.
+Number of generated nodes.
+Number of duplicated nodes.
+Solutions length
+Number of nodes expanded per second.
+Total search time, in seconds.
+
+For example, the output of the solver ``` ./chessformer -s test_maps/capability6``` is:
+
+```
+SOLUTION:
+b1e4b6
+STATS:
+Expanded nodes: 31
+Generated nodes: 4050
+Duplicated nodes: 254
+Solution Length: 3
+Time (seconds): 0.001895
+```
+
+To visualise the solution using the sokoban file reader to support the following specification representing Chessformer puzzles:
+<img width="1021" alt="Screenshot 2025-03-01 at 10 31 20 pm" src="https://github.com/user-attachments/assets/1a99cdc8-9a50-44ce-ad92-ed080c649d2c" />
+
+Use ```./chessformer -s test_maps/capability6 play_solution```
+<img width="89" alt="Screenshot 2025-03-01 at 10 34 01 pm" src="https://github.com/user-attachments/assets/1892e34f-d4b0-458a-99a1-de17368fd915" />
+
+
+Further game-specific optimizations will be explored and implemented to speed up this algorithm in the near future.
