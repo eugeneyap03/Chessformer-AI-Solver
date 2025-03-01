@@ -8,13 +8,13 @@ When the AI solver is called, it should explore all possible paths (sequence of 
 
 Your solver will print into an ```solution.txt``` file the following information: 
 
-Solution
-Number of expanded nodes.
-Number of generated nodes.
-Number of duplicated nodes.
-Solutions length
-Number of nodes expanded per second.
-Total search time, in seconds.
+-Solution
+-Number of expanded nodes.
+-Number of generated nodes.
+-Number of duplicated nodes.
+-Solutions length
+-Number of nodes expanded per second.
+-Total search time, in seconds.
 
 For example, the output of the solver ``` ./chessformer -s test_maps/capability6``` is:
 
